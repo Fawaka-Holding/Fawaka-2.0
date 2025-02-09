@@ -1,3 +1,5 @@
+import LandingPage from "../components/LandingPage"; // Adjust the path if needed
+
 export default function Home() {
-  return <h1>Welcome to Fawaka.xyz</h1>;
+  return <LandingPage />;
 }
