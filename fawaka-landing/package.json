@@ -1,1 +1,25 @@
-
+{
+  "name": "fawaka-landing",           // Project name
+  "version": "1.0.0",                 // Project version
+  "private": true,                    // Prevents the project from being accidentally published
+  "dependencies": {                   // List of production dependencies
+    "next": "13.2.4",                 // Next.js version
+    "react": "^18.2.0",               // React version
+    "react-dom": "^18.2.0",           // ReactDOM version
+    "tailwindcss": "^3.0.0",          // Tailwind CSS
+    "postcss": "^8.4.12",             // PostCSS (required for Tailwind)
+    "autoprefixer": "^10.4.7"         // Autoprefixer (for better cross-browser compatibility)
+  },
+  "devDependencies": {                 // List of development dependencies
+    "eslint": "^8.10.0",               // ESLint for linting (optional but recommended)
+    "eslint-config-next": "^12.0.0"    // Next.js ESLint config
+  },
+  "scripts": {                         // Shortcuts to run commands
+    "dev": "next dev",                 // Runs the Next.js app in development mode
+    "build": "next build",             // Builds the app for production
+    "start": "next start"              // Starts the production server
+  },
+  "engines": {                         // Specifies the required Node.js version
+    "node": ">=16.x.x"                 // Specifies compatible Node.js version (Next.js works well with 16.x or higher)
+  }
+}
